@@ -1,15 +1,7 @@
 module MATH474
-
+import RowEchelon: rref, rref_with_pivots
 # Write your package code here.
 
-function addit(x, y)
-    x + y
-end
-
-function addone(x)
-    addit(1, x)
-end
-
-export addit, addone
+export rref, rref_with_pivots
 
 end
