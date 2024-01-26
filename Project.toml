@@ -1,7 +1,7 @@
 name = "MATH474"
 uuid = "755902ed-ac2d-43b6-a89a-c3d45b7be12e"
 authors = ["Mohammed Alshahrani <mmogib@gmail.com> and contributors"]
-version = "1.1.0-DEV"
+version = "1.1.1-DEV"
 
 [deps]
 RowEchelon = "af85af4c-bcd5-5d23-b03a-a909639aa875"
