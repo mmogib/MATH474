@@ -11,8 +11,7 @@ using Test
         0.0 0.0 1.0 -0.0]
     P = [1; 2; 3]
 
-    @test rref(A) ≈ B
-    B1, P1 = rref_with_pivots(A)
+    B1, P1 = rref(A)
     @test B1 ≈ B
     @test P1 ≈ P
 end
